@@ -30,7 +30,20 @@ ul {
     padding: 0;
 }
 
-li {
+ul>ul>li {
+padding-left: 35px;
+}
+#vprospect {
+    font-weight: bold;
+}
+#vconvert {
+    font-weight: bold;
+}
+#vretain{
+    font-weight: bold;
+}
+
+*:not(li):first-of-type {
     list-style: none;
 }
 
@@ -79,19 +92,18 @@ li {
     margin-top: 30px;
 }
 
-section img{
+
+div section p {
+    margin-left: 5px;
+}
+div section img p {
+    float: right;
+
+}
+div section img{
     border-radius: 40px;
         border: 2px solid red;
         float: left;
         margin-right: 20px;
 
-}
-
-section img p{
-    float: right;
-  
-}
-
-section p{
-    margin-left: 5px;
 }
