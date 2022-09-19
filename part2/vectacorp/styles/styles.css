@@ -78,3 +78,20 @@ li {
     background-color: #000000;
     margin-top: 30px;
 }
+
+section img{
+    border-radius: 40px;
+        border: 2px solid red;
+        float: left;
+        margin-right: 20px;
+
+}
+
+section img p{
+    float: right;
+  
+}
+
+section p{
+    margin-left: 5px;
+}
